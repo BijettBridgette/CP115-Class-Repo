@@ -4,15 +4,16 @@
         <attribute name="name" value="exercise-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:07:14 AM"/>
+        <attribute name="saved" value="2026-07-01 11:28:03 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowNjowNSBBTTsyNzMx"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowNzoxNCBBTTsyOzI4NDE="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToyODowMyBBTTszOzI4NDM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="lengthtimber" type="Integer" array="False" size=""/>
             <input variable="lengthtimber"/>
+            <assign variable="timber" expression="lengthcm/100*price"/>
             <declare name="totalprice" type="Integer" array="False" size=""/>
             <output expression="totalprice" newline="True"/>
         </body>
