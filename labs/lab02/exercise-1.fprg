@@ -4,15 +4,16 @@
         <attribute name="name" value="exercise-1"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 10:50:05 AM"/>
+        <attribute name="saved" value="2026-07-01 11:30:45 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo0NTo0MiBBTTsyNzM0"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo1MDowNSBBTTsyOzI4Mzg="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozMDo0NSBBTTszOzI4NDI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="money" type="Integer" array="False" size=""/>
             <input variable="money"/>
+            <assign variable="money" expression="money/0.02*baht"/>
             <declare name="totalChanged" type="Integer" array="False" size=""/>
             <output expression="totalChanged" newline="True"/>
         </body>
