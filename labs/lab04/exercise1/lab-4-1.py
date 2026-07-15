@@ -5,5 +5,5 @@ else:
     if kwh <= 200:
         totalBill = 100 * 0.3 + kwh - 100 * 0.5
     else:
-        totalBill = kwh * 0.3 + 100 * 0.5 + kwh - 200 * 0.75
+        totalBill = 100 * 0.3 + 100 * 0.5 + kwh - 200 * 0.75
 print(totalBill)
