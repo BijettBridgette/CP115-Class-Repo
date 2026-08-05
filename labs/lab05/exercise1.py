@@ -1,0 +1,5 @@
+name = input("Enter your name: ")
+age = input("Enter your age :")
+course_code = input("Enter your course code:")
+print(name,age,course_code)
+print(type(name,age,course_code))
